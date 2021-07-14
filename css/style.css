@@ -207,7 +207,9 @@ Banner Section
     width: 100%;
     height: 100%;
 }
-
+.highlights-item-text p{
+    color: #6C6C6C;
+}
 /* Contact Section */
 .contact-section {
     width: 1164px;
@@ -375,3 +377,31 @@ Banner Section
     }
 }
 /* Tab Device */
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .menu-section{
+        width: 100%;
+    }
+    .copa-banner-img{
+        width: 100%;
+        height: auto;
+    }
+    .copa-banner{
+        width: 100%;
+        height: 100%;
+    }
+    .palyers{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .highlights-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .highlights-item{
+        width: 100%;
+    }
+    .contact-section{
+        width: 100%;
+    }
+}
