@@ -357,6 +357,7 @@ Banner Section
     }
     .highlights-item{
         width: 100%;
+        height: auto;
     }
     .contact-section,
     .contact{
