@@ -77,6 +77,9 @@ Banner Section
     align-items: center;
     justify-content: space-between;
 }
+.copa-banner-text{
+    margin-top: 52px;
+}
 .copa-banner-text h2{
     font-size: 64px;
     font-family: 'Poppins',
