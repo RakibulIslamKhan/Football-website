@@ -203,12 +203,6 @@ Banner Section
     padding: 15px;
     box-sizing: border-box;
 }
-
-.highlights-item-img {
-    height: auto;
-    width: 350px;
-}
-
 .highlights-item-img img {
     width: 100%;
     height: 100%;
@@ -361,12 +355,16 @@ Banner Section
         flex-direction: column;
         width: 100%;
     }
-
-    .contact-section,
-    .contact {
+    .highlights-item{
         width: 100%;
     }
-
+    .contact-section,
+    .contact{
+        width: 100%;
+    }
+    .highlights-item .highlights-item-img{
+        width: 100%;
+    }
     .footer {
         width: 100%;
         margin-top: 43px;
